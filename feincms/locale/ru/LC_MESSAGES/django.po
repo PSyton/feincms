@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-22 17:22+0700\n"
+"POT-Creation-Date: 2012-03-23 11:30+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Mikhail Korobov <kmike84@gmail.com>\n"
 "Language-Team: RUSSIAN\n"
@@ -40,7 +40,7 @@ msgid "Parent"
 msgstr "Родитель"
 
 #: admin/filterspecs.py:95
-#: templates/admin/medialibrary/mediafile/change_list.html:20
+#: templates/admin/medialibrary/mediafile/change_list.html:15
 msgid "Category"
 msgstr "Категория"
 
@@ -549,10 +549,12 @@ msgid "Add selected media files to category"
 msgstr "Добавить выбранные файлы в категорию"
 
 #: module/medialibrary/models.py:394
+#, python-format
 msgid "ZIP file exported as %s"
 msgstr "ZIP-архив экспортирован как %s"
 
 #: module/medialibrary/models.py:396
+#, python-format
 msgid "ZIP file export failed: %s"
 msgstr "Ошибка экспорта в ZIP-архив: %s"
 
@@ -565,7 +567,8 @@ msgstr "Упаковать выбранные файлы в ZIP-архив"
 msgid ""
 "Cannot overwrite with different file type (attempt to overwrite a "
 "%(old_ext)s with a %(new_ext)s)"
-msgstr "Невозможно изменить тип файла (Попытка сохранить %(old_ext)s в %(new_ext)s))"
+msgstr ""
+"Невозможно изменить тип файла (Попытка сохранить %(old_ext)s в %(new_ext)s))"
 
 #: module/medialibrary/models.py:466
 #, python-format
@@ -573,6 +576,7 @@ msgid "%d files imported"
 msgstr "%d файлов импортировано"
 
 #: module/medialibrary/models.py:468
+#, python-format
 msgid "ZIP import failed: %s"
 msgstr "Загрузка ZIP-архива не удалась: %s"
 
@@ -932,15 +936,15 @@ msgstr "Добавить в категорию"
 msgid "Cancel"
 msgstr "Отменить"
 
-#: templates/admin/medialibrary/mediafile/change_list.html:17
+#: templates/admin/medialibrary/mediafile/change_list.html:12
 msgid "Bulk upload a ZIP file:"
 msgstr "Загрузить несколько файлов в ZIP-архиве:"
 
-#: templates/admin/medialibrary/mediafile/change_list.html:27
+#: templates/admin/medialibrary/mediafile/change_list.html:22
 msgid "Overwrite"
 msgstr "Перезаписать"
 
-#: templates/admin/medialibrary/mediafile/change_list.html:30
+#: templates/admin/medialibrary/mediafile/change_list.html:25
 msgid "Send"
 msgstr "Отправить"
 
